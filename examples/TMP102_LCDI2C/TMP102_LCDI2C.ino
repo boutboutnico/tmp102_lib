@@ -35,7 +35,7 @@ void setup()
  *****************************************************************************/
 void loop()
 {
-	float f_temp = tmp102.getTempCelcius();
+	float f_temp = tmp102.getTemperature_Celcius();
 	lcd.printf(0,0,"temp : %d\n", f_temp);
 
 	delay(500);
